@@ -1,0 +1,22 @@
+.website-button{
+    padding: 3%;
+    background-color: rgb(235, 65, 65);
+    color: white;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(235, 65, 65);
+    transition-duration: 0.4s;  
+}
+
+.website-button:active,
+.website-button:hover {
+    background-color: white;
+    color: rgb(235, 65, 65);
+    outline:none;
+}
+
+.website-button:focus{
+    outline: none;
+    box-shadow: 0 0 1pt 2pt rgb(240, 96, 96);
+}

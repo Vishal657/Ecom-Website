@@ -1,0 +1,9 @@
+.navigation-bar .container-fluid{
+    width: 85%;
+}
+
+@media only screen and (max-width: 600px){
+	.navigation-bar .container-fluid{
+        width: 100%;
+    }
+}
