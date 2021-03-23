@@ -1,9 +1,28 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import NavBar from '../Navigation/NavBar'
 import Filter from '../Filter/Filter'
 import ProductPage from '../ProductDisplay/ProductDisplay'
+import Men from '../Json/Men.json'
+import Women from '../Json/Women.json'
+import Children from '../Json/Children.json'
+import Random from '../Json/Random.json'
+import {fiilter} from '../utility/filterAndReturnArray'
 
 const MainPage = (props) => {
+    const [filterData,setFilterData] = useState({gender:null,colour:null,size:null});
+    const [ProductPageData,setProductPageData] = useState(Random)
+
+    useEffect(()=>{
+        if(filterData.gender === null && filterData.colour === null  && filterData.size === null ){
+            setProductPageData(Random)
+        } else {
+            let helper = [];
+            helper = fiilter(Men,Women,Children,filterData.size,filterData.gender,filterData.colour)
+            console.log(helper)
+            setProductPageData(helper)
+        } 
+    },[filterData])
+
     return (
         <Fragment>
             <NavBar />
@@ -11,10 +30,10 @@ const MainPage = (props) => {
                 <div className="row justify-content-around">
                     <div className="col-md-2 border-right my-2">
                         <h2 className="pl-md-4">Filters</h2>
-                        <Filter />
+                        <Filter setFilter={setFilterData}/>
                     </div>
                     <div className="col-md-10">
-                        <ProductPage />
+                        <ProductPage data={ProductPageData}/>
                     </div>
                 </div>
             </div>

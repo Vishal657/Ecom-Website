@@ -6,7 +6,7 @@ const NavBar = (props) => {
     return (
         <nav className="navbar navbar-expand-md navbar-light bg-light navigation-bar">
             <div className="container-fluid">
-                <a className="navbar-brand mx-md-auto" href="someurl">
+                <a className="navbar-brand mx-md-auto" href="/">
                     <img src={Logo} width="50" height="50" alt="" />
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

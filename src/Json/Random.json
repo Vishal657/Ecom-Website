@@ -1,0 +1,29 @@
+[
+    {
+        "Title" : "Black Shirt for Men",
+        "Desc" : "This is good shirt for Men",
+        "colour" : "black",
+        "size" : "XXX-L",
+        "image":"../Assets/Men/Black.jpg",
+        "Price":"720",
+        "gender":"Men"
+    },
+    {
+        "Title" : "Blue Shirt for Men",
+        "Desc" : "This is good shirt for Men",
+        "colour" : "blue",
+        "size" : "XX-L",
+        "image":"../Assets/Men/Blue.jpg",
+        "Price":"720",
+        "gender":"Men"
+    },
+    {
+        "Title" : "Green Shirt for Men",
+        "Desc" : "This is good shirt for Men",
+        "colour" : "green",
+        "size" : "X-L",
+        "image":"../Assets/Men/Green.jpg",
+        "Price":"720",
+        "gender":"Men"
+    }
+]
