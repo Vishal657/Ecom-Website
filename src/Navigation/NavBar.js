@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from '../Assets/Logo.jpg'
 import "./NavBar.css";
 
 const NavBar = (props) => {
+    const [enteredText,setEnterdedText] = useState(null)
     return (
         <nav className="navbar navbar-expand-md navbar-light bg-light navigation-bar">
             <div className="container-fluid">
@@ -15,8 +16,12 @@ const NavBar = (props) => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <form className="form-inline my-2 my-lg-0 ml-auto">
-                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" 
+                        onChange={(e)=>setEnterdedText(e.target.value)}/>
+                        <button className="btn btn-outline-success my-2 my-sm-0"
+                        onClick={(e)=>{
+                            e.preventDefault()
+                            props.setSearched(enteredText)}}>Search</button>
                     </form>
                 </div>
             </div>

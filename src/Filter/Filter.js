@@ -84,8 +84,9 @@ const NavBar = (props) => {
                     </label>
                 </div>
             </div>
-            <button className="btn btn-block btn-danger my-2 my-md-3" 
+            <button className="my-2 my-md-3 block"
             onClick={()=>{props.setFilter({gender:gender,colour:colour,size:size})}} >Apply Filter</button>
+            <button className="my-2 my-md-3 block" >View My Cart</button>
         </div>
     )
 }
