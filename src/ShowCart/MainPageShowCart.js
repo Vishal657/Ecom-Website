@@ -20,19 +20,20 @@ const MainPageShowCart = (props) => {
         }
         setcards(helper)
     }
-    if(((cards && cards.length!==0) || !cards) && getKeys(JSON.parse(localStorage.getItem("cart")))===0){
+    if (((cards && cards.length !== 0) || !cards) && getKeys(JSON.parse(localStorage.getItem("cart"))) === 0) {
         alertify.error('<span style="color:white">Your Cart is empty</span>')
     }
 
     return (
         <Fragment>
             <NavBar />
+            
             <div className="container-fluid MainCartPage">
                 <div className="row px-5 pt-5 justify-content-center">
                     {
-                        (cards && cards.length!==0) ? cards
-                        : 
-                        null
+                        (cards && cards.length !== 0) ? cards
+                            :
+                            null
                     }
                 </div>
             </div>

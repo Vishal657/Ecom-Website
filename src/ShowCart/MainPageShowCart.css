@@ -1,4 +1,4 @@
-.MainCartPage{
-    height: 100vh;
+.MainCartPage {
+    min-height: 100vh;
     background-color: aquamarine;
 }
