@@ -9,7 +9,6 @@ class Footer extends React.Component {
         return (
 
             <div>
-                {/* <!-- Footer --> */}
                 <div className="panel" data-color="white">
 
                     <div className="footer">
@@ -17,7 +16,7 @@ class Footer extends React.Component {
 
                             <div className=" col-md-3 col-sm-3  address-1 pb-0">
                                 <div className="aero-logo-image">
-                                    <img src={logo} className="aero-logo-footer" />
+                                    <img src={logo} className="aero-logo-footer p-2" />
                                 </div>
 
                             </div>
