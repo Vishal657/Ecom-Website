@@ -42,7 +42,7 @@ const MainPage = (props) => {
             <NavBar setSearched={setSearched} />
             <div className="container-fluid">
                 <div className="row justify-content-around">
-                    <div className="col-md-2 border-right my-2">
+                    <div className="col-md-2 border-right my-1">
                         <h2 className="pl-md-4">Filters</h2>
                         <Filter setFilter={setFilterData} />
                     </div>
