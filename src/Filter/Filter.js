@@ -87,6 +87,8 @@ const NavBar = (props) => {
             </div>
             <button className="my-2 my-md-3 block"
             onClick={()=>{props.setFilter({gender:gender,colour:colour,size:size})}} >Apply Filter</button>
+            <button className="my-2 my-md-3 block"
+            onClick={()=>{window.location.reload()}} >Reset</button>
             <button className="my-2 my-md-3 block" onClick={()=>{
                 props.history.push('/viewcart')
             }}>View My Cart</button>
