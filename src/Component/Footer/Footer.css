@@ -1,0 +1,395 @@
+/*Footer*/
+.footer{
+    position:relative;
+    /* padding-top:10px; */
+    margin-right: 0;
+    margin-left: 0;
+    /* height:600px; */
+    background-color:rgb(15, 15, 15);
+    color: #fff;
+  }
+  
+  .address-1{
+    
+    margin-right:0;
+    text-align:center;
+    align-items: center;
+    justify-content:center;
+    display: block;
+    padding-bottom:20px;
+    /* border-right: 3px solid #41B6E6; */
+  }
+  
+  .address{
+    
+    margin-right:0;
+    /* text-align:center; */
+    align-items: center;
+    justify-content:center;
+    display: block;
+    padding-bottom:20px;
+    
+  }
+  
+  .subfooter{
+    background-color:#41B6E6;
+    color:#fff;
+    height:50px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* border-top:1px solid #41B6E6; */
+    border-top:1px solid #fff;
+    bottom:0;
+    font-size:14px;
+    width:100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding:1%;
+    display: block;
+  }
+  
+  .aero-logo-image{
+    text-align:center;
+    align-items: center;
+    justify-content:center;
+  }
+  .aero-address{
+    text-align:left;
+    align-items: center;
+    justify-content:center;
+    padding:0 50px 0 50px;
+  }
+  @media(max-width:991px){
+    .aero-address{
+      text-align:left;
+      align-items: center;
+      justify-content:center;
+      /* padding:0 50px 0 100px; */
+      padding:0;
+    }
+  }
+  .copyright-main-sec{
+    font-size:15px;
+    float:left;
+  
+   
+  }
+  .subfooter-links{
+    font-size:15px;
+    float:right;
+   color: fff;
+  
+  }
+  
+  .footer-links{
+    text-decoration: none;
+    color:#fff;
+    padding:10px 2px 0 2px;
+    
+  }
+  
+  .aero-logo-footer{
+    object-fit:contain;
+    /* height:150px; */
+    
+    width:170px;
+  }
+  
+  
+  .footer-links:hover{
+    text-decoration: none;
+    color:#000;
+    /* padding:0 2px 0 2px; */
+    
+  }
+  .footer1{
+       position:relative;
+  
+      margin-right: 0;
+      margin-left: 0;
+      margin-top:20px;
+      margin-bottom:20px;
+  }
+  .footer-link{
+    font-size:21px;
+    text-decoration: none;
+  }
+  .footer-links .footer-link {
+    display: block;
+    list-style-type:none;
+  }
+  
+  .footer-address{
+    text-decoration:underline;
+    font-size:25px;
+    display: block;
+    margin: auto;
+  }
+  
+  
+  
+  .footer-partner .footer-blink{
+    text-decoration: none;
+    position:relative;
+    color:#fff;
+    
+  }
+  
+  .footer-partner .footer-blink:hover{
+    color:#fff;
+  }
+  
+  
+  .footer-link .footer-alink{
+    color:black;
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  
+  .footer-blink:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color:#fff;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer-blink:hover:before {
+    color:#41B6E6;
+    visibility: visible;
+    width: 100%;
+  }
+  
+  
+  
+  .social{
+  
+    padding: 5px;
+  
+    font-size: 24px;
+  
+    width: 36px;
+  
+    height: 36px;
+  
+    text-align: center;
+  
+    text-decoration: none;
+  
+    margin: 2px 2px;
+  
+    border-radius: 50%;
+  
+  }
+  
+  
+  
+  .fa:hover {
+  
+      opacity: 0.7;
+  
+  }
+  
+  
+  
+  .fa-facebook {
+  
+    /* background: #3B5998;
+  
+    color: white; */
+  
+    color: #3B5998;
+  }
+  
+  
+  
+  .fa-twitter {
+  
+    /* background: #55ACEE;
+  
+    color: white; */
+    color:  #55ACEE;
+  }
+  
+  
+  
+  .fa-google {
+  
+    /* background: #dd4b39;
+  
+    color: white; */
+  
+    color:#dd4b39;
+  
+  }
+  
+  
+  
+  .fa-linkedin {
+  
+    /* background: #007bb5;
+  
+    color: white; */
+  
+    color: #007bb5;
+  
+  }
+  
+  .fa-instagram {
+  
+     /* background: #3B5998;
+  
+    color: white;
+  
+  
+  
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25); */
+  
+    color: #3B5998;
+  
+  }
+  
+  
+  .fimage{
+    position:relative;
+    width:100%;
+    height:225px;
+    object-fit: cover;
+    
+  }
+  
+    
+  .footer-image{
+    /* margin-right: 0;
+    margin-left:0; */
+    position:relative;
+  }
+    .footer-content{
+      /* border-left: 3px solid #41B6E6; */
+      /* height:200px; */
+      text-align:center;
+      display: block;
+      
+      
+      justify-content: center;
+      align-items:center;
+   }
+  .help{
+    margin-left: 35%;
+    margin-top:160px;
+  
+    font-size:5vw;
+    animation: float 4s ease-in-out infinite;
+  
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+  }
+  .partner{
+  font-size:85px;
+  transform:rotate(-45deg);
+  }
+  
+  @media(max-width:600px)
+  {
+    .footer1 {
+      position: relative;
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+    .footer-image{
+      /* margin-right: 0;
+      margin-left:0; */
+      position:relative;
+    }
+  
+    .aero-address{
+      text-align:center;
+      align-items: center;
+      justify-content:center;
+      padding:0 0 0 0;
+    }
+  
+    
+  .row{
+    margin-right: 0;
+    margin-left:0;
+   
+  }
+      .footer-content{
+        border-left:none;
+        margin-top:20px;
+      }
+      .help{
+        margin-left: 100px;
+        margin-top:200px;
+    
+      font-size:7vw;
+      animation: float 4s ease-in-out infinite;
+    
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      transform: translate(-50%, -50%);
+    }
+    .partner{
+      font-size:35px;
+      transform:rotate(-45deg);
+    }
+  
+    .subfooter{
+      /* background-color:#161C27; */
+      color:#fff;
+      height:50px;
+      /* justify-content: center;
+      align-items: center;
+      text-align: center; */
+      bottom:0;
+      font-size:14px;
+      width:100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding:1%;
+      display: block;
+  }
+  
+  .copyright-main-sec{
+      font-size:15px;
+      float:none;
+      text-align:center;
+    
+     
+  }
+  .subfooter-links{
+      font-size:13px;
+      float:none;
+      text-align:center;
+     
+  
+  }
+  
+  .footer-links{
+      text-decoration: none;
+      color:#fff;
+      padding:0 2px 0 2px;
+      
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
