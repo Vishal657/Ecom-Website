@@ -30,7 +30,10 @@ const ProductPage = (props) => {
         }
         alertify.success('Successfully Added to Cart')
     }
+    console.log(props.from)
     return (
+        (props.from === 'wishlist') ? <button className="btn btn-block btn-danger btn-lg w-100" onClick={() => addToLocalStrorage()}>{props.txt}</button>
+        :
         <button className="website-button" onClick={() => addToLocalStrorage()}>{props.txt}</button>
     )
 }

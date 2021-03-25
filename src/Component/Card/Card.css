@@ -1,8 +1,45 @@
-/* .product-card{
-    width: 25%;
-    height: 40%;
+.addToWhishList{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(79, 156, 16);
+    border-radius: 50%;
+    color: aliceblue;
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+}
+.addToWhishList span{
+    display: block;
+    text-align: center;
+    padding-top: 2px;
+    font-weight: bold;
+}
+.removeToWhishList{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(192, 21, 21);
+    border-radius: 50%;
+    color: aliceblue;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+.removeToWhishList span{
+    display: block;
+    text-align: center;
+    padding-top: 2px;
+    font-weight: bold;
 }
 
-.product-card img{
-    width: 100%;
-} */
+.removeToWhishList:hover,
+.addToWhishList:hover{
+    background-color: white;
+}
+.removeToWhishList:hover{
+    border: 1px solid rgb(192, 21, 21);
+    color: rgb(192, 21, 21);
+}
+.addToWhishList:hover{
+    border: 1px solid rgb(79, 156, 16);
+    color: rgb(79, 156, 16);
+}

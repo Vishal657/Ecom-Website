@@ -1,0 +1,64 @@
+.available-colors1 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.available-colors2 {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.available-colors3 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.available-colors1:hover {
+    background-color: rgb(58, 56, 56);
+}
+
+.available-colors2:hover {
+    background-color: rgb(77, 77, 243);
+}
+
+.available-colors3:hover {
+    background-color: rgb(8, 204, 8);
+}
+
+.Product-name {
+    font-size: 25px;
+    margin: 10px 0px;
+}
+.image-container img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50%;
+    transition: hight 0.2s;
+}
+.image-container img:hover{
+    height: 100%;
+}
+.image-container{
+    position: relative;
+    height: 60vh;
+}

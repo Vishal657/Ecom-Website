@@ -8,6 +8,7 @@ const ProductPage = (props) => {
 
         props.data.forEach((val, index) => {
             const im = require('../Assets/Men/Blue.jpg').default //val.image
+            console.log(props.image)
             arra.push(
                 <Card className="col-md" img={im} Title={val.Title}
                     Desc={val.Desc} Price={val.Price} Size={val.size} key={"565^&" + index} />

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import Logo from '../Assets/Logo.jpg'
+import WishListLogo from '../Assets/WishListLogo.png'
 import "./NavBar.css";
 
 
@@ -18,6 +19,9 @@ const NavBar = (props) => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <form className="form-inline my-2 my-lg-0 ml-auto">
+                        <Link className="nav-link text-success pl-0" to='./wishlist'>
+                            <img src={WishListLogo} width='20px' height='20px' className="mr-1 text-success" style={{marginTop:'-9px'}}/>
+                            View Wish List</Link>
                         <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" 
                         onChange={(e)=>setEnterdedText(e.target.value)}/>
                         <button className="btn btn-outline-success my-2 my-sm-0"
