@@ -44,8 +44,8 @@ const MainPageShowCartCard = (props) => {
                         <h5 className="card-title font-weight-semi-bold mb-3 w-xl-220p mx-auto">{props.title}</h5>
                         <p className="price">Rs. {props.price}</p>
                     </div>
-                    <p className="btn btn-block mx-auto">
-                        <input type="submit" className="btn btn-dark btn-lg w-100" name="add-button" value="Remove From Wish List"
+                    <p className="btn btn-block mx-auto mb-0">
+                        <input type="submit" className="btn btn-block btn-dark btn-lg" name="add-button" value="Remove From Wish List"
                             onClick={() => removeElementFromCard()}
                         />
                     </p>

@@ -9,7 +9,11 @@ const WishList = (props) => {
     const [cards, setcards] = useState(null);
 
     function getKeys(obj) {
-        return Object.keys(obj).length;
+        try{
+            return Object.keys(obj).length;
+        } catch(e) {
+            return 0
+        }
     }
 
     if (cards === null && localStorage.getItem("wishlist")) {

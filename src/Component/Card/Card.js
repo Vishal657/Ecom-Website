@@ -40,7 +40,7 @@ const Card = (props) => {
                 }
             }))
         }
-        alertify.success('Successfully Added to Wish List')
+        alertify.success('<span style="color:white">Successfully Added to Wish List</span>')
     }
     return (
         <div className="card p-2 m-2" style={{ width: "20rem" }}>

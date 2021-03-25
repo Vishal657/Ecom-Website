@@ -28,7 +28,7 @@ const ProductPage = (props) => {
                 }
             }))
         }
-        alertify.success('Successfully Added to Cart')
+        alertify.success('<span style="color:white">Successfully Added to Cart</span>')
     }
     console.log(props.from)
     return (
